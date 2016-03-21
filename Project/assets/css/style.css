@@ -4,6 +4,12 @@ body{
 .navbar-brand-ttl{
     font-size: 3em;
 }
+.jtxt {
+    text-align: justify;
+}
+.btxt {
+    font-weight: bold;
+}
 .top-nav-collapse .navbar-brand-ttl{
     font-size: 2em;
 }

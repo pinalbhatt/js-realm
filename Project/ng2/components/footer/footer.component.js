@@ -20,6 +20,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
         execute: function() {
             FooterComponent = (function () {
                 function FooterComponent() {
+                    this.copyrightYear = (new Date()).getFullYear();
                 }
                 FooterComponent = __decorate([
                     core_1.Component({

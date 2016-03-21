@@ -5,6 +5,6 @@ import { Component } from 'angular2/core';
     templateUrl: 'ng2/components/footer/footer.template.html'
 })
 export class FooterComponent{
-
+    copyrightYear = (new Date()).getFullYear();
 }
   
