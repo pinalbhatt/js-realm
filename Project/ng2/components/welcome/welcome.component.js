@@ -11,7 +11,7 @@ System.register(['angular2/core', "angular2/router"], function(exports_1, contex
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1, router_1;
-    var HeaderComponent;
+    var WelcomeComponent;
     return {
         setters:[
             function (core_1_1) {
@@ -21,21 +21,21 @@ System.register(['angular2/core', "angular2/router"], function(exports_1, contex
                 router_1 = router_1_1;
             }],
         execute: function() {
-            HeaderComponent = (function () {
-                function HeaderComponent() {
+            WelcomeComponent = (function () {
+                function WelcomeComponent() {
                 }
-                HeaderComponent = __decorate([
+                WelcomeComponent = __decorate([
                     core_1.Component({
-                        selector: 'my-header',
-                        templateUrl: 'ng2/components/header/header.template.html',
+                        selector: 'welcome-template',
+                        templateUrl: 'ng2/components/welcome/welcome.template.html',
                         directives: [router_1.ROUTER_DIRECTIVES]
                     }), 
                     __metadata('design:paramtypes', [])
-                ], HeaderComponent);
-                return HeaderComponent;
+                ], WelcomeComponent);
+                return WelcomeComponent;
             }());
-            exports_1("HeaderComponent", HeaderComponent);
+            exports_1("WelcomeComponent", WelcomeComponent);
         }
     }
 });
-//# sourceMappingURL=header.component.js.map
+//# sourceMappingURL=welcome.component.js.map
