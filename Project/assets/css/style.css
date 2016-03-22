@@ -3,6 +3,10 @@ body{
 }
 .navbar-brand-ttl{
     font-size: 3em;
+    text-shadow: 1px 1px 1px #000;
+}
+.navbar-brand-ttl:hover{
+    text-shadow: 2px 3px 3px #000;
 }
 .jtxt {
     text-align: justify;
